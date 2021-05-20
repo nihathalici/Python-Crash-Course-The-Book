@@ -28,7 +28,7 @@ class AlienInvasion:
         """Start the main loop for the game."""
         while True:
             # Watch for keyboard and mouse events.
-            self.check_events()
+            self._check_events()
             self.ship.update()
             self._update_screen()
 
