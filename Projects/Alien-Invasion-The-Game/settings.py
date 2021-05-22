@@ -25,5 +25,8 @@ class Settings:
         # fleet_direction of 1 represents right; -1 represents left.
         self.fleet_direction = 1
  
-def initialize_dynamic_settings():
+def initialize_dynamic_settings(self):
+    pass
+
+def increase_speed(self):
     pass
