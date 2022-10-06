@@ -18,3 +18,8 @@ Another Ship, Different Background Color
 
 ![Sample Output-2](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-3.png)
 
+Moving Right 
+========================================================
+
+![Sample Output-2](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-4.png)
+
