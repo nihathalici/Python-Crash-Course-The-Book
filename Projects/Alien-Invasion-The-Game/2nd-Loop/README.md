@@ -16,10 +16,15 @@ Ship Added
 Another Ship, Different Background Color
 ========================================================
 
-![Sample Output-2](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-3.png)
+![Sample Output-3](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-3.png)
 
 Moving Right 
 ========================================================
 
-![Sample Output-2](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-4.png)
+![Sample Output-4](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-4.png)
+
+Moving Both Left and Right 
+========================================================
+
+![Sample Output-5](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-5.png)
 
