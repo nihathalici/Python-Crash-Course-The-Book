@@ -28,3 +28,8 @@ Moving Both Left and Right
 
 ![Sample Output-5](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-5.png)
 
+Firing Bullets 
+========================================================
+
+![Sample Output-6](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-6.png)
+
