@@ -33,3 +33,8 @@ Firing Bullets
 
 ![Sample Output-6](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-6.png)
 
+First Alien
+========================================================
+
+![Sample Output-7](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-7.png)
+
