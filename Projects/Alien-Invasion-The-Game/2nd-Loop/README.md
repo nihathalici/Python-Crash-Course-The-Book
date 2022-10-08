@@ -43,3 +43,8 @@ Group Of Alien
 
 ![Sample Output-8](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-8.png)
 
+Full Fleet
+========================================================
+
+![Sample Output-9](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-9.png)
+
