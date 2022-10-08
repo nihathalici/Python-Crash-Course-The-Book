@@ -38,3 +38,8 @@ First Alien
 
 ![Sample Output-7](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-7.png)
 
+Group Of Alien
+========================================================
+
+![Sample Output-8](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-8.png)
+
