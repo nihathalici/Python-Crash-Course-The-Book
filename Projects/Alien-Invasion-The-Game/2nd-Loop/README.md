@@ -48,3 +48,8 @@ Full Fleet
 
 ![Sample Output-9](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-9.png)
 
+Moving Fleet
+========================================================
+
+![Sample Output-10](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Alien-Invasion-The-Game/2nd-Loop/screenshots/screenshot-10.png)
+
