@@ -13,22 +13,84 @@ import pygame.font
 from pygame.sprite import Sprite
 
 class Screen:
-    pass
+    def __init__(self):
+        pygame.init()
+        self.screen_width = 1200
+        self.screen_height = 800
+        self.screen_color = (230, 230, 230)
+        self.screen = pygame.display.set_mode(
+            (self.screen_width, self.screen_height))
+        self.screen_rect = self.screen.get_rect()
+
+        self.ship = Ship(self.screen_rect)
+        self.bullets = pygame.sprite.Group()
+
+        self.box = Box(self)
+
+        self.missed = 0
+        self.game_active = False
+
+        self.play_button = Button(self)
+    
+    def run_game(self):
+        pass
+
+    def ship_update(self):
+        pass
+
+    def _check_box_edges(self):
+        pass
+
+    def _check_bullet_hit(self):
+        pass
+
+    def _check_game_over(self):
+        pass
+
+
+
+
+
+
 
 class Ship:
-    pass
+    def __init__(self, screen_rect):
+        pass
 
 class Bullet(Sprite):
-    pass
+    def __init__(self, screen):
+        pass
+
+    def update(self):
+        pass
+
+    def draw_bullet(self):
+        pass
+
 
 class Box:
-    pass
+    def __init__(self, screen):
+        pass
+
+    def update(self):
+        pass
+
+    def draw_box(self):
+        pass
+
 
 class Alien(Sprite):
-    pass
+    def __init__(self, screen):
+        pass
+
+    def update(self):
+        pass
+
 
 class Button:
-    pass
+    def __init__(self, screen):
+        pass
+    
 
 if __name__ == "__main__":
     screen = Screen()
