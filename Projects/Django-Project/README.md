@@ -1,4 +1,4 @@
-# Python Crash Course | Web Applications Styling | Django Project
+# Python Crash Course | Web Applications | Django Project
 
 In this chapter, you’ll learn how to use Django to build a project called Learning Log—an online journal system that lets you keep track of information you’ve learned about particular topics.
 
