@@ -45,6 +45,9 @@ python manage.py runserver
 
 * The install worked successfully! 
   
+![Try It Yourself-18-1](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/screenshots/screenshot_try_it_yourselr_18_1.PNG)
+
+
 
 Links and Appendix
 ========================================================
