@@ -28,7 +28,7 @@ source .venv/bin/activate
 pip install django
 ```
 
-* Create a new Django project called snapgram-project
+* Create a new Django project called snapgram_project
 ```shell
 django-admin startproject snapgram_project .
 ```
