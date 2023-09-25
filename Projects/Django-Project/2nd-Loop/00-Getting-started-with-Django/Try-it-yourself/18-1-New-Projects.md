@@ -1,7 +1,7 @@
 18-1. New Projects
 ========================================================
 
-To get a better idea of what Django does, build a couple of empty projects, like snap_gram or insta_chat.
+To get a better idea of what Django does, build a couple of empty projects, like **snap_gram** or insta_chat.
 
 * Make a new directory
 
