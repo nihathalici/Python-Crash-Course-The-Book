@@ -80,3 +80,63 @@ class Topping(models.Model):
 
 
 ```
+
+* Modify settings.py and your app
+
+```python3
+INSTALLED_APPS = [
+    # My apps
+    "pizzas",
+    # Default django apps.
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+```
+
+* Add changes to database
+```shell
+python manage.py makemigrations pizzas
+python manage.py migrate
+```
+
+* Set up a superuser
+```shell
+python manage.py createsuperuser
+```
+
+* Register the model with the admin site
+```python3
+from django.contrib import admin
+
+from .models import Pizza, Topping
+
+admin.site.register(Pizza)
+admin.site.register(Topping)
+```
+
+* Use the superuser account to access the admin site
+
+* Use the site to enter some pizza names and toppings. 
+
+* Use the shell to explore the data you entered.
+```shell
+python manage.py shell
+from pizzas.models import Pizza
+
+Pizza.objects.all()
+
+pizzas = Pizza.objects.all()
+for pizza in pizzas:
+  print(pizza.id, pizza)
+
+p = Pizza.objects.get(id=1)
+p.name
+
+# Check the ForeignKey
+p.topping_set.all()
+p.topping_set.get(id=1)
+```
