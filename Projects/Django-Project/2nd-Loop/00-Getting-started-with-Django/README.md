@@ -1,6 +1,6 @@
 # Python Crash Course | Getting started with Django
 
-
+* Setting Up a Project
 
 Try It Yourself
 ========================================================
