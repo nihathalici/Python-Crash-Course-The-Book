@@ -1,0 +1,56 @@
+18-1. Project Pizzeria
+========================================================
+
+Start a new project called pizzeria with an app called pizzas.
+
+* Make a new directory
+
+```shell
+mkdir pizzeria
+```
+
+* Create a virtual environment within this new directory. 
+
+```shell
+python -m venv .venv
+```
+
+* Activate the virtual environment called .venv
+```shell
+source .venv/bin/activate
+```
+
+* Install Django
+```shell
+pip install django
+```
+
+* Create a new Django project called pizzeria_project. 
+Don't forget to add the period (or dot) . at the end!
+```shell
+django-admin startproject pizzeria_project .
+```
+
+* Create the database
+```shell
+python manage.py migrate
+```
+
+* Run the Django development server
+```shell
+python manage.py runserver
+```
+
+* Create the app pizzas
+```shell
+python manage.py startapp pizzas
+```
+
+* Define the models
+```python3
+
+```
+
+
+  
+![Try It Yourself-18-1](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/screenshots/screenshot_try_it_yourselr_18_1.PNG)
