@@ -44,3 +44,39 @@ python manage.py runserver
 ```shell
 python manage.py startapp pizzas
 ```
+
+* Define the models
+```python3
+
+"""
+Define a model Pizza with a field called name, which will 
+hold name values, such as Hawaiian and Meat Lovers. 
+Define a model called Topping with fields called 
+pizza and name. The pizza field should be a foreign key 
+to Pizza, and name should be able to hold values 
+such as pineapple, Canadian bacon, and sausage.
+"""
+
+from django.db import models
+
+class Pizza(models.Model):
+    """Varieties, defined by the choice of toppings and crust."""
+    name = models.CharField(max_length=200)
+
+    def __str__(self):
+        """Return a string representation of the model."""
+        return self.name
+
+
+
+class Topping(models.Model):
+    """Any of the ingredients added over the pizza."""
+    pizza = models.ForeignKey(Pizza, on_delete=models.CASCADE)
+    name = models.CharField(max_length=200)
+
+    def __str__(self):
+        """Return a string representation of the model."""
+        return self.name
+
+
+```
