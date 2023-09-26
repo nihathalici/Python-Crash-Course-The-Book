@@ -11,6 +11,11 @@ Try It Yourself Exercises
 * **[18-3. The Django API](https://docs.djangoproject.com/en/2.2/topics/db/queries/)** - Skim through the Django documentation for querying your data at https://docs.djangoproject.com/en/2.2/topics/db/queries/.
 * **[18.4. Pizzeria](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/Try-it-yourself/18-4-Pizzeria.md)** - Start a new project called pizzeria with an app called pizzas.
 
+
+## TODO List:
+
+* [ ] 18-5. Meal Planner: Consider an app that helps people plan their meals throughout the week. 
+
 Links and Appendix
 ========================================================
 
