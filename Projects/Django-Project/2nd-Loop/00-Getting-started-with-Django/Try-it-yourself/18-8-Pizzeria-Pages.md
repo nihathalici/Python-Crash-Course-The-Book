@@ -202,5 +202,5 @@ python manage.py runserver
 ```
 
 *** Finito ... for now!
-![Try It Yourself-18-8 - 2](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/screenshots/screenshot_try_it_yourself_18_8_pizzeria_Adding_Pages.PNG)
+![Try It Yourself-18-8 - 2](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/screenshots/screenshot_try_it_yourself_18_8_pizzeria_Adding_Pages_2.PNG)
 
