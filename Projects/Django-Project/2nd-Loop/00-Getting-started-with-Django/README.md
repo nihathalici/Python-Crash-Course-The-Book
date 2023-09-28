@@ -3,6 +3,7 @@
 * Setting Up a Project
 * Starting an App
 * Making Pages
+* Building Additional Pages
 
 Try It Yourself Exercises
 ========================================================
