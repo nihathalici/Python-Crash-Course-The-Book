@@ -22,6 +22,8 @@ Try It Yourself Exercises
 * [ ] 19-3. Refactoring
 * [ ] 19-4. Protecting new_entry
 * [ ] 19-5. Protected Blog 
+
+
 Links and Appendix
 ========================================================
 
