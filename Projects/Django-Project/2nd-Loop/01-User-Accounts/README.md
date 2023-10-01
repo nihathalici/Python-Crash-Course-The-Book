@@ -17,7 +17,8 @@ Try It Yourself Exercises
 
 ## TODO List:
 
-* [ ] 18-5. Meal Planner: Consider an app that helps people plan their meals throughout the week. 
+* [ ] 18-5. Meal Planner: Consider an app that helps people plan their meals throughout the week.
+* [ ] 19-1. Blog: Start a new Django project called Blog.
 
 Links and Appendix
 ========================================================
