@@ -19,7 +19,9 @@ Try It Yourself Exercises
 
 * [ ] 18-5. Meal Planner: Consider an app that helps people plan their meals throughout the week.
 * [ ] 19-1. Blog: Start a new Django project called Blog.
-
+* [ ] 19-3. Refactoring
+* [ ] 19-4. Protecting new_entry
+* [ ] 19-5. Protected Blog 
 Links and Appendix
 ========================================================
 
