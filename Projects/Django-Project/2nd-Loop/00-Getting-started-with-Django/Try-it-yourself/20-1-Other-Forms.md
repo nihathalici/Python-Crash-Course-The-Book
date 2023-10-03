@@ -73,5 +73,5 @@ edit_entry:
 {% endblock content %}
     
 ```
-![Try It Yourself-20-1 - 3](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/screenshots/screenshot_try_it_yourself_20_1_edit_entry.PNG)
+![Try It Yourself-20-1 - 3](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/screenshots/screenshot_try_it_yourself_20_1_edit_entry.png)
 
