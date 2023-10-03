@@ -75,3 +75,27 @@ edit_entry:
 ```
 ![Try It Yourself-20-1 - 3](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/screenshots/screenshot_try_it_yourself_20_1_edit_entry.png)
 
+
+* register
+```html
+{% extends 'learning_logs/base.html' %}
+{% load bootstrap4 %}
+
+{% block page_header %}
+  <h2>Register</h2>
+{% endblock page_header %}
+
+{% block content %}
+<form action="{% url 'users:register' %}" method="post" class="form">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    {% buttons %}  
+    <button name="submit" class="btn btn-primary">Register</button>
+    {% endbuttons %}
+    <input type="hidden" name="next" value="{% url 'learning_logs:index' %}">
+</form>        
+{% endblock content %}
+    
+```
+
+![Try It Yourself-20-1 - 3](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/screenshots/screenshot_try_it_yourself_20_1_register.PNG)
