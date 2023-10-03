@@ -26,7 +26,7 @@ We applied Bootstrap’s styles to the login page. Make similar changes to the r
 ```
 ![Try It Yourself-20-1 - 1](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/screenshots/screenshot_try_it_yourself_20_1_new_topic.PNG)
 
-new_entry:
+* new_entry:
 ```html
 {% extends 'learning_logs/base.html' %}
 {% load bootstrap4 %}
@@ -47,4 +47,31 @@ new_entry:
 {% endblock content %}  
 ```
 ![Try It Yourself-20-1 - 2](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/screenshots/screenshot_try_it_yourself_20_1_new_entry.PNG)
+
+
+edit_entry:
+```html
+{% extends 'learning_logs/base.html' %}
+{% load bootstrap4 %}
+
+
+{% block page_header %}
+<h2><a href="{% url 'learning_logs:topics_detail' topic.id %}">{{ topic }}</a></h2>
+<h2>Edit entry:</h2>    
+{% endblock page_header %}
+    
+
+{% block content %}
+<form action="{% url 'learning_logs:edit_entry' entry.id %}" method="post" class="form">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    {% buttons %}
+    <button name="submit" class="btn btn-primary">Save changes</button>
+    {% endbuttons %}
+</form>
+    
+{% endblock content %}
+    
+```
+![Try It Yourself-20-1 - 3](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/screenshots/screenshot_try_it_yourself_20_1_edit_entry.PNG)
 
