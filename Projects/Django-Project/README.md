@@ -19,7 +19,7 @@ Try It Yourself Exercises
 * **[18-6. Pizzeria Home Page](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/Try-it-yourself/18-4-Pizzeria.md)** - Add a home page to the Pizzeria project you started in Exercise 18-4.
 * **[18-7. Template Documentation](https://docs.djangoproject.com/en/2.2/ref/templates/)** - Skim the Django template documentation at https://docs.djangoproject.com/en/2.2/ref/templates/.
 * **[18-8. Pizzeria Pages](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/Try-it-yourself/18-8-Pizzeria-Pages.md)** - Add a page to the Pizzeria project that shows the names of available pizzas.
-* **[19-1. Blog](https://github.com/nihathalici/Django-Blog-Project)** Blog: Start a new Django project called Blog.
+* **[19-1. Blog](https://github.com/nihathalici/Django-Blog-Project)** - Start a new Django project called Blog.
 * **[20-1. Other Forms](https://github.com/nihathalici/Python-Crash-Course-The-Book/blob/main/Projects/Django-Project/2nd-Loop/00-Getting-started-with-Django/Try-it-yourself/18-8-Pizzeria-Pages.md)** - We applied Bootstrap’s styles to the login page. Make similar changes to the rest of the form-based pages including new_topic, new_entry, edit_entry, and register.
 
 
